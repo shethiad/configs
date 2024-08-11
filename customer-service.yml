@@ -29,7 +29,7 @@ spring:
     jpa:
         database: POSTGRESQL
         hibernate:
-            ddl-auto: none
+            ddl-auto: update
             naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
         properties:
             hibernate:
