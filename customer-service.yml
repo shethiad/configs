@@ -20,11 +20,11 @@ spring:
     database:
         driverClassName: org.postgresql.Driver
     datasource:
-        password: deepak
+        password: 
         platform: postgres
         testWhileIdle: true
-        url: jdbc:postgresql://localhost:5432/custmoerdb
-        username: deepak
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: customerdb
         validationQuery: SELECT 1
     jpa:
         database: POSTGRESQL
