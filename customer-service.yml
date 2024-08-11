@@ -20,7 +20,7 @@ spring:
     database:
         driverClassName: org.postgresql.Driver
     datasource:
-        password: 
+        password: deepak
         platform: postgres
         testWhileIdle: true
         url: jdbc:postgresql://localhost:5432/postgres
