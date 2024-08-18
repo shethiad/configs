@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">Reservation project</h2>
+</br>
+<table class="center">
+  <tr>
+    <th>Project</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Zipkin</td>
+    <td><a href="http://localhost:9411/zipkin/" target="_blank">9411</a></td>
+  </tr>
+  <tr>
+    <td>Adminer</td>
+    <td><a href="http://localhost:8080" target="_blank">8080</a></td>
+  </tr>
+  <tr>
+    <td>Config Server</td>
+    <td><a href="http://127.0.0.1:8888/eureka-server.yml" target="_blank">8888 - eureka-server</a></td>
+  </tr>
+    <tr>
+    <td>Eureka Discovery Server</td>
+    <td><a href="http://127.0.0.1:8761/" target="_blank">8761</a></td>
+  </tr>
+  <tr>
+    <td>Gateway Server</td>
+    <td><a href="http://127.0.0.1:8072/actuator" target="_blank">8072</a>
+<a href="http://127.0.0.1:8072/api/v1/customers" target="_blank">customers</a>
+<a href="http://127.0.0.1:8072/api/v1/bookings" target="_blank">reservations</a>
+<a href="http://127.0.0.1:8072/api/v1/payments" target="_blank">payments</a>
+<a href="http://127.0.0.1:8072/api/v1/employees" target="_blank">employees</a>
+<a href="http://127.0.0.1:8072/api/v1/notifications/health" target="_blank">notifications</a>
+	</td>
+  </tr>
+  <tr>
+    <td>Customer</td>
+    <td><a href="http://127.0.0.1:8088/actuator" target="_blank">8088</a></td>
+  </tr>
+  <tr>
+    <td>Reservation</td>
+    <td><a href="http://127.0.0.1:8089/actuator" target="_blank">8089</a>
+	<a href="http://127.0.0.1:8089/api/v1/bookings" target="_blank">reservations</a></td>
+  </tr>
+  <tr>
+    <td>Payment</td>
+    <td><a href="http://127.0.0.1:8090/actuator" target="_blank">8090</a>
+	<a href="http://127.0.0.1:8090/api/v1/payments" target="_blank">payments</a></td>
+  </tr>
+  <tr>
+    <td>Employee</td>
+    <td><a href="http://127.0.0.1:8091/actuator" target="_blank">8091</a>
+	<a href="http://127.0.0.1:8091/api/v1/employees" target="_blank">employees</a></td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td><a href="http://127.0.0.1:8092/actuator" target="_blank">8092</a>
+	<a href="http://127.0.0.1:8092/api/v1/notifications/health" target="_blank">notifications</a></td>
+  </tr>
+</table>
+</br></br>
+<table class="center">
+  <tr>
+    <th>Description</th>
+    <th>Resource</th>
+  </tr>
+  <tr>
+    <td>Github projects Edureka</td>
+    <td><a href="https://github.com/indiagator" target="_blank">indiagator</a></td>
+  </tr>
+  <tr>
+    <td>Github deepak</td>
+    <td><a href="https://github.com/shethiad" target="_blank">shethiad</a></td>
+  </tr>
+  
+  
+</table>
+
+</br></br>
+<table class="center">
+  <tr>
+    <th>Description</th>
+    <th>Command</th>
+  </tr>
+  <tr>
+    <td>Build images of customer project</td>
+    <td>docker build -t config-server .</td>
+  </tr>
+  <tr>
+    <td>Check docker images</td>
+    <td>docker image ls, docker images</td>
+  </tr>
+</table>
+</br></br>
+</body>
+</html>
