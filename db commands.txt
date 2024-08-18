@@ -1,0 +1,33 @@
+create schema customerdb;
+create user customerdb;
+grant connect on database postgres to customerdb;
+grant all on schema customerdb to customerdb;
+alter user customerdb with password 'secretpass';
+
+
+create schema reservationdb;
+create user reservationdb;
+grant connect on database postgres to reservationdb;
+grant all on schema reservationdb to reservationdb;
+alter user reservationdb with password 'secretpass';
+
+
+create schema paymentdb;
+create user paymentdb;
+grant connect on database postgres to paymentdb;
+grant all on schema paymentdb to paymentdb;
+alter user paymentdb with password 'secretpass';
+
+
+create schema employeedb;
+create user employeedb;
+grant connect on database postgres to employeedb;
+grant all on schema employeedb to employeedb;
+alter user employeedb with password 'secretpass';
+
+
+create schema notificationdb;
+create user notificationdb;
+grant connect on database postgres to notificationdb;
+grant all on schema notificationdb to notificationdb;
+alter user notificationdb with password 'secretpass';
