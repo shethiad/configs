@@ -15,7 +15,7 @@ management:
         tags:
             application: ${spring.application.name}
 service:
-    name: reservation-service
+    name: employee-service
 spring:
     database:
         driverClassName: org.postgresql.Driver
@@ -24,7 +24,7 @@ spring:
         platform: postgres
         testWhileIdle: true
         url: jdbc:postgresql://localhost:5432/postgres
-        username: reservationdb
+        username: employeedb
         validationQuery: SELECT 1
     jpa:
         database: POSTGRESQL
